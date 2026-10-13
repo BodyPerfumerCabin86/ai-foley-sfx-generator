@@ -1,0 +1,12 @@
+# ai-foley-sfx-generator — host runtime deps (Windows-first, Python 3.11+)
+numpy>=1.26,<3
+scipy>=1.11
+soundfile>=0.12
+sounddevice>=0.4.6          # WASAPI + ASIO loopback on Windows
+librosa>=0.10
+torch>=2.2                  # CPU/CUDA; plugin deps pull their own model weights
+diffusers>=0.27
+tomli>=2.0 ; python_version < "3.11"
+watchdog>=4.0               # hot-reload of extension modules
+rich>=13.7                  # CLI output
+pydantic>=2.6
