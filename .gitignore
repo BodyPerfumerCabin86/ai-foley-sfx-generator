@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+
+# Model + audio caches (large, regenerable)
+models/cache/
+scenes/renders/
+*.wav
+*.flac
+*.onnx
+*.pt
+*.ckpt
+
+# C++ / native build dirs
+foley_host/_ext/build/
+*.so
+*.pyd
+*.dll
+*.dylib
+*.obj
+*.o
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env + telemetry
+.env
+.env.*
+*.log
+logs/
+telemetry/*.jsonl
