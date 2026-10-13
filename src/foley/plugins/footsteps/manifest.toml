@@ -1,0 +1,5 @@
+name = "footsteps"
+version = "0.2.0"
+api = "1.2"
+capabilities = ["footstep", "walk", "run"]
+entry = "plugin.py"
