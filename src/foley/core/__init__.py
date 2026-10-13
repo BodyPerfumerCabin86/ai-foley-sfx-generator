@@ -1,0 +1,1 @@
+"""Core host logic: lifecycle, scheduler, render graph."""
